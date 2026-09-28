@@ -1,8 +1,9 @@
-import dis
+print("Шаг 1")
 
-def calculate():
-    x = 10
-    y = 20
-    return x + y
+x = 5
+print("Шаг 2")
 
-dis.dis(calculate)
+y = x * 2
+print("Шаг 3")
+
+print(y)
