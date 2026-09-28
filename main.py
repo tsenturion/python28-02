@@ -1,7 +1,7 @@
-def calculate():
-    return 10 / 0
+def greet(name):
+    message = "Здравствуйте, " + name
+    return message
 
-def start():
-    return calculate()
+result = greet("Ирина")
 
-start()
+print(result)
