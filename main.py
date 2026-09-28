@@ -1,3 +1,5 @@
-#!/usr/bin/env python3
+from pathlib import Path
 
-print(1)
+file_path = Path("data") / "reports" / "report.txt"
+
+print(file_path)
