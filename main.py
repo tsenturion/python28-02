@@ -1,5 +1,3 @@
-import math
+import platform
 
-result = math.sqrt(81)
-
-print(result)
+print(platform.python_implementation())

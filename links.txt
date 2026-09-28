@@ -21,3 +21,7 @@ https://docs.python.org/ru/3.13/library/dis.html
 https://docs.python.org/ru/3.13/reference/executionmodel.html
 https://docs.python.org/ru/3.13/tutorial/classes.html#python-scopes-and-namespaces
 https://docs.python.org/ru/3.13/tutorial/interpreter.html#interactive-mode
+https://docs.python.org/ru/3.13/library/py_compile.html
+https://docs.python.org/ru/3.13/tutorial/modules.html#compiled-python-files
+https://docs.python.org/ru/3.13/c-api/memory.html
+https://docs.python.org/ru/3.13/library/gc.html
