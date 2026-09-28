@@ -1,3 +1,6 @@
-import os
+#!/usr/bin/env python3
 
-print(os.pathsep)
+print("Скрипт запущен")
+
+python3 script.py
+chmod +x script.py
