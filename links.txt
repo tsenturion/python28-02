@@ -38,3 +38,4 @@ https://filezilla.ru/get/
 https://docs.python.org/ru/3.13/library/pathlib.html
 https://docs.python.org/ru/3.13/library/os.html
 https://docs.python.org/ru/3.13/library/os.html#os.environ
+https://docs.python.org/ru/3.13/using/unix.html
