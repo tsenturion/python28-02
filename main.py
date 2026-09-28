@@ -1,4 +1,5 @@
-import sys
+source = "x = 10\nprint(x * 2)"
 
-print(sys.version)
-print(sys.executable)
+code = compile(source, "<example>", "exec")
+
+exec(code)

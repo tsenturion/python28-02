@@ -25,3 +25,4 @@ https://docs.python.org/ru/3.13/library/py_compile.html
 https://docs.python.org/ru/3.13/tutorial/modules.html#compiled-python-files
 https://docs.python.org/ru/3.13/c-api/memory.html
 https://docs.python.org/ru/3.13/library/gc.html
+https://docs.python.org/ru/3.13/library/functions.html#compile
