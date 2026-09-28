@@ -20,3 +20,4 @@ https://docs.python.org/ru/3.13/tutorial/interpreter.html
 https://docs.python.org/ru/3.13/library/dis.html
 https://docs.python.org/ru/3.13/reference/executionmodel.html
 https://docs.python.org/ru/3.13/tutorial/classes.html#python-scopes-and-namespaces
+https://docs.python.org/ru/3.13/tutorial/interpreter.html#interactive-mode
