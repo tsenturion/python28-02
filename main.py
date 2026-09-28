@@ -1,7 +1,3 @@
-counter = 1
+x = 100
 
-print(counter)
-
-counter = counter + 1
-
-print(counter)
+print(x)
