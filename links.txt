@@ -30,3 +30,5 @@ https://docs.python.org/ru/3.13/reference/lexical_analysis.html#indentation
 https://docs.python.org/ru/3.13/using/windows.html
 https://docs.python.org/ru/3.13/library/platform.html
 https://docs.python.org/ru/3.13/library/sys.html#sys.platform
+https://docs.python.org/ru/3.13/using/unix.html
+https://docs.python.org/ru/3.13/tutorial/interpreter.html
