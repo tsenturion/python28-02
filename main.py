@@ -1,5 +1,7 @@
-def calculate():
-    return unknown_name + 10
+counter = 1
 
-print("Функция создана")
-calculate()
+print(counter)
+
+counter = counter + 1
+
+print(counter)
