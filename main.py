@@ -1,5 +1,3 @@
-from pathlib import Path
+import os
 
-file_path = Path("data") / "reports" / "report.txt"
-
-print(file_path)
+print(os.getcwd())

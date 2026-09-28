@@ -36,3 +36,4 @@ https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downl
 https://ubuntu.com/download/server
 https://filezilla.ru/get/
 https://docs.python.org/ru/3.13/library/pathlib.html
+https://docs.python.org/ru/3.13/library/os.html
