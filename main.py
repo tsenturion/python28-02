@@ -1,5 +1,7 @@
-print("Начало")
+def calculate():
+    return 10 / 0
 
-number = int("abc")
+def start():
+    return calculate()
 
-print("Конец")
+start()
