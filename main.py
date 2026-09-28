@@ -1,5 +1,7 @@
-source = "x = 10\nprint(x * 2)"
+source = "print(5 + 7)"
+
+print(type(source))
 
 code = compile(source, "<example>", "exec")
 
-exec(code)
+print(type(code))
