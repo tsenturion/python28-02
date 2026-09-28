@@ -1,7 +1,7 @@
-source = "print(5 + 7)"
+source = """
+x = 10
+if x > 5
+    print(x)
+"""
 
-print(type(source))
-
-code = compile(source, "<example>", "exec")
-
-print(type(code))
+compile(source, "<example>", "exec")
