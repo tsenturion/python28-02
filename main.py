@@ -1,3 +1,5 @@
-import os
+from pathlib import Path
 
-print(os.getcwd())
+file_path = Path("Report.txt")
+
+print(file_path.exists())
