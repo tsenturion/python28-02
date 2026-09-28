@@ -1,5 +1,5 @@
-print("Запуск файла")
+print("Начало")
 
-name = "Анна"
+number = int("abc")
 
-print("Здравствуйте,", name)
+print("Конец")
