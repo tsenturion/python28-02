@@ -1,5 +1,3 @@
-import platform
-import sys
+#!/usr/bin/env python3
 
-print(platform.system())
-print(sys.executable)
+print(1)

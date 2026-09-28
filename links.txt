@@ -32,3 +32,7 @@ https://docs.python.org/ru/3.13/library/platform.html
 https://docs.python.org/ru/3.13/library/sys.html#sys.platform
 https://docs.python.org/ru/3.13/using/unix.html
 https://docs.python.org/ru/3.13/tutorial/interpreter.html
+https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html
+https://ubuntu.com/download/server
+https://filezilla.ru/get/
+https://docs.python.org/ru/3.13/library/pathlib.html
