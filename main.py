@@ -1,7 +1,4 @@
-source = """
-x = 10
-if x > 5
-    print(x)
-"""
+if True:
+    print("Внутри блока")
 
-compile(source, "<example>", "exec")
+print("После блока")
