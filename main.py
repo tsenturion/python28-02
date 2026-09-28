@@ -1,8 +1,5 @@
-print("Программа начала работу")
+number = 100
+message = "Python"
 
-x = 10
-y = 0
-
-print(x / y)
-
-print("Программа завершена")
+print(number)
+print(message)
