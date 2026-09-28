@@ -17,3 +17,4 @@ https://www.php.net/manual/ru/index.php
 https://docs.python.org/ru/3.13/
 https://www.infosystems.ru/courses/python/PH004/?sphrase_id=412461
 https://docs.python.org/ru/3.13/tutorial/interpreter.html
+https://docs.python.org/ru/3.13/library/dis.html

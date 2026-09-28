@@ -1,5 +1,8 @@
-print("Первая строка")
+import dis
 
-x = 10 +
+def calculate():
+    x = 10
+    y = 20
+    return x + y
 
-print("Последняя строка")
+dis.dis(calculate)
