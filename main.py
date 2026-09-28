@@ -1,7 +1,8 @@
-def greet(name):
-    message = "Здравствуйте, " + name
-    return message
+def show_message():
+    print("Функция выполняется")
 
-result = greet("Ирина")
+print("Функция уже определена")
 
-print(result)
+show_message()
+
+print("Вызов завершён")
