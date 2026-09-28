@@ -27,3 +27,6 @@ https://docs.python.org/ru/3.13/c-api/memory.html
 https://docs.python.org/ru/3.13/library/gc.html
 https://docs.python.org/ru/3.13/library/functions.html#compile
 https://docs.python.org/ru/3.13/reference/lexical_analysis.html#indentation
+https://docs.python.org/ru/3.13/using/windows.html
+https://docs.python.org/ru/3.13/library/platform.html
+https://docs.python.org/ru/3.13/library/sys.html#sys.platform

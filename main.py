@@ -1,3 +1,5 @@
-x = 100
+import platform
 
-print(x)
+print(platform.system())
+print(platform.release())
+print(platform.machine())
