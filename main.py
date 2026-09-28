@@ -1,8 +1,5 @@
-def show_message():
-    print("Функция выполняется")
+import math
 
-print("Функция уже определена")
+result = math.sqrt(81)
 
-show_message()
-
-print("Вызов завершён")
+print(result)
