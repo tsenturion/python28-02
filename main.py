@@ -1,5 +1,5 @@
-number = 100
-message = "Python"
+value = 10
+print(value)
 
-print(number)
-print(message)
+value = 25
+print(value)
