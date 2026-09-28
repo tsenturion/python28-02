@@ -1,5 +1,3 @@
-from pathlib import Path
+import os
 
-file_path = Path("Report.txt")
-
-print(file_path.exists())
+print(os.name)
