@@ -1,4 +1,5 @@
-if True:
-    print("Внутри блока")
+def calculate():
+    return unknown_name + 10
 
-print("После блока")
+print("Функция создана")
+calculate()
