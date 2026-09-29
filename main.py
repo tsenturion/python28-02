@@ -1,4 +1,5 @@
-numbers = [10, 20, 30]
+numbers = [10, 15, 20, 25]
 
 for number in numbers:
-    print(number)
+    if number > 18:
+        print(number)
