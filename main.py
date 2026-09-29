@@ -1,3 +1,4 @@
-def long_function_name(var_one, var_two,var_three,var_four):print(var_one)
+age = 20
 
-long_function_name('one','two','three','four')
+if age >= 18:
+    print("Доступ разрешён")
