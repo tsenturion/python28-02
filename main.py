@@ -1,5 +1,6 @@
-numbers = [10, 20, 30]
+numbers = [30, 10, 20]
 
-del numbers[1]
+sorted_numbers = sorted(numbers)
 
 print(numbers)
+print(sorted_numbers)
