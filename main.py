@@ -1,6 +1,7 @@
-numbers = [30, 10, 20]
+user = {
+    "name": "Анна",
+    "age": 25,
+    "city": "Москва"
+}
 
-sorted_numbers = sorted(numbers)
-
-print(numbers)
-print(sorted_numbers)
+print(user)
