@@ -1,6 +1,7 @@
-name = "Анна"
 age = 20
-message = "Пользователь зарегистрирован"
-print(name)
-print(age)
-print(message)
+
+if age >= 18:
+    print("Пользователь совершеннолетний")
+    print("Доступ разрешён")
+
+print("Проверка завершена")
