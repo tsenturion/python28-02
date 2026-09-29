@@ -1,4 +1,4 @@
-is_active = False
+name = "Анна"
 
-if not is_active:
-    print("Пользователь неактивен")
+if name:
+    print("Имя указано")
