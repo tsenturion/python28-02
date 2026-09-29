@@ -1,6 +1,6 @@
-first = [10, 20, 30]
-second = first
-del first
-print(second)
-
-# Результат будет: [10, 20, 30]
+name = "Анна"
+age = 20
+message = "Пользователь зарегистрирован"
+print(name)
+print(age)
+print(message)

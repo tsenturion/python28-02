@@ -52,3 +52,5 @@ https://docs.python.org/ru/3.13/tutorial/
 https://docs.python.org/ru/3.13/reference/simple_stmts.html#the-del-statement
 https://docs.python.org/ru/3.13/reference/datamodel.html
 https://docs.python.org/ru/3.13/tutorial/datastructures.html#the-del-statement
+https://docs.python.org/ru/3.13/reference/executionmodel.html
+https://docs.python.org/ru/3.13/reference/lexical_analysis.html#indentation
