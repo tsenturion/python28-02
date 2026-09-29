@@ -1,7 +1,7 @@
-score = 82
-if score >= 90:
-    print("Отличный результат")
+score = 95
+if score >= 60:
+    print("Удовлетворительно")
 elif score >= 75:
-    print("Хороший результат")
-else:
-    print("Результат требует улучшения")
+    print("Хорошо")
+elif score >= 90:
+    print("Отлично")
