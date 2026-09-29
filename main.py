@@ -1,6 +1,3 @@
-balance = 5000
-if balance > 0:
-    message = "Баланс положительный"
-    doubled_balance = balance * 2
-    print(message)
-    print(doubled_balance)
+def long_function_name(var_one, var_two,var_three,var_four):print(var_one)
+
+long_function_name('one','two','three','four')
