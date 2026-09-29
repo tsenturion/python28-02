@@ -1,2 +1,4 @@
-for number in range(0, 10, 2):
-    print(number)
+languages = ["Python", "Java", "Go"]
+
+for index, language in enumerate(languages):
+    print(index, language)
