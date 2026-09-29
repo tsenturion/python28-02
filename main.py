@@ -1,5 +1,7 @@
-counter = 5
+is_running = True
 
-while counter > 0:
-    print(counter)
-    counter -= 1
+while is_running:
+    print("Программа работает")
+    is_running = False
+
+print("Работа завершена")
