@@ -1,4 +1,4 @@
-is_active = True
+is_active = False
 
-if is_active:
-    print("Пользователь активен")
+if not is_active:
+    print("Пользователь неактивен")
