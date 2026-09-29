@@ -1,6 +1,6 @@
-age = 16
+password_correct = False
 
-if age >= 18:
-    print("Доступ разрешён")
+if password_correct:
+    print("Вход выполнен")
 else:
-    print("Доступ запрещён")
+    print("Неверный пароль")
