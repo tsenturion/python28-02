@@ -1,8 +1,8 @@
-age = 25
-has_account = True
-
+age = 20
+has_ticket = True
 if age >= 18:
-    print("Возраст подходит")
-
-    if has_account:
-        print("Личный кабинет доступен")
+    print("Возраст проверен")
+    if has_ticket:
+        print("Билет найден")
+    print("Проверка билета завершена")
+print("Общая проверка завершена")
