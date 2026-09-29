@@ -1,8 +1,8 @@
 temperature = 30
-humidity = 80
 
-if temperature > 25:
-    print("Высокая температура")
-
-if humidity > 70:
-    print("Высокая влажность")
+if temperature >= 30:
+    print("Жарко")
+elif temperature >= 20:
+    print("Тепло")
+else:
+    print("Прохладно")
