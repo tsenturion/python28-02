@@ -1,7 +1,3 @@
-data = ("Анна", 25, True, None)
+colors = ("red", "green", "blue")
 
-print(data)
-print(type(data[0]))
-print(type(data[1]))
-print(type(data[2]))
-print(type(data[3]))
+print(len(colors))
