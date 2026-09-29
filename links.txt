@@ -72,3 +72,4 @@ https://docs.python.org/ru/3.13/builtins/stdtypes.html#set-types-set-frozenset
 https://docs.python.org/ru/3.13/builtins/stdtypes.html#common-sequence-operations
 https://docs.python.org/ru/3.13/glossary.html#term-iterable
 https://docs.python.org/ru/3.13/glossary.html#term-iterator
+https://docs.python.org/ru/3.13/tutorial/controlflow.html#for-statements

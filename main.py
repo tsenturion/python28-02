@@ -1,7 +1,4 @@
-numbers = [10, 20]
+numbers = [10, 20, 30]
 
-iterator = iter(numbers)
-
-print(next(iterator))
-print(next(iterator))
-print(next(iterator))
+for number in numbers:
+    print(number)
