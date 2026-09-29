@@ -1,6 +1,14 @@
-number = 1
-while number <= 100:
-    if number * number > 50:
-        print("Найдено число:", number)
-        break
-    number += 1
+outer = 1
+
+while outer <= 3:
+    inner = 1
+
+    while inner <= 3:
+        print("outer =", outer, "inner =", inner)
+
+        if inner == 2:
+            break
+
+        inner += 1
+
+    outer += 1
