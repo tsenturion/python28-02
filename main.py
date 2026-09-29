@@ -1,7 +1,7 @@
 user = {
-    "name": "Анна",
-    "age": 25
+    "name": "Анна"
 }
 
-print(user.get("name"))
-print(user.get("city"))
+user["age"] = 25
+user["age"] = 26
+print(user)
