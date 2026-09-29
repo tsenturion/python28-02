@@ -77,3 +77,5 @@ https://docs.python.org/ru/3.13/builtins/stdtypes.html#range
 https://docs.python.org/ru/3.13/tutorial/controlflow.html#defining-functions
 https://docs.python.org/ru/3.13/reference/compound_stmts.html#function-definitions
 https://docs.python.org/ru/3.13/reference/expressions.html#calls
+https://docs.python.org/ru/3.13/reference/simple_stmts.html#the-return-statement
+https://docs.python.org/ru/3.13/tutorial/controlflow.html#keyword-arguments
