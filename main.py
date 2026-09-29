@@ -3,5 +3,5 @@ user = {
     "age": 25
 }
 
-print(user["name"])
-print(user["age"])
+print(user.get("name"))
+print(user.get("city"))
