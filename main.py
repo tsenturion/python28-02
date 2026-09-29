@@ -1,4 +1,6 @@
-age = 25
+temperature = 20
 
-if age >= 18 and age <= 65:
-    print("Возраст входит в диапазон")
+if temperature > 20:
+    print("Тепло")
+else:
+    print("Прохладно")
