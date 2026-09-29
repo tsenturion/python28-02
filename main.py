@@ -1,7 +1,8 @@
-score = 95
-if score >= 60:
-    print("Удовлетворительно")
-elif score >= 75:
-    print("Хорошо")
-elif score >= 90:
-    print("Отлично")
+temperature = 30
+humidity = 80
+
+if temperature > 25:
+    print("Высокая температура")
+
+if humidity > 70:
+    print("Высокая влажность")
