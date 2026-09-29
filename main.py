@@ -1,5 +1,8 @@
-numbers = [10, 15, 20, 25]
+user = {
+    "name": "Анна",
+    "age": 25
+}
 
-for number in numbers:
-    if number > 18:
-        print(number)
+for key, value in user.items():
+    print("Ключ:", key)
+    print("Значение:", value)
