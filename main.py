@@ -1,6 +1,11 @@
-data = {
+user = {
     "name": "Анна",
-    "name": "Мария"
+    "age": 25
 }
 
-print(data)
+user.update({
+    "age": 26,
+    "city": "Москва"
+})
+
+print(user)
