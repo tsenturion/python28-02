@@ -1,4 +1,3 @@
-def show_message():
-    print("Функция выполняется")
-
-show_message()
+def show_user(name, age):
+    print("Имя:", name)
+    print("Возраст:", age)
