@@ -1,3 +1,4 @@
 colors = ("red", "green", "blue")
 
-print(len(colors))
+print("green" in colors)
+print("black" in colors)
