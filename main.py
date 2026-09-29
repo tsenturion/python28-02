@@ -1,9 +1,5 @@
-file_exists = True
-file_is_empty = False
+number = 1
 
-if not file_exists:
-    print("Файл не найден")
-elif file_is_empty:
-    print("Файл существует, но не содержит данных")
-else:
-    print("Файл найден и содержит данные")
+while number <= 5:
+    print(number)
+    number = number + 1
