@@ -1,7 +1,6 @@
-user = {
-    "name": "Анна"
+data = {
+    "name": "Анна",
+    "name": "Мария"
 }
 
-user["age"] = 25
-user["age"] = 26
-print(user)
+print(data)
