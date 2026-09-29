@@ -1,7 +1,6 @@
-counter = 1
-while counter <= 10:
-    print(counter)
-    if counter == 3:
+while True:
+    command = input("Введите команду: ")
+    if command == "exit":
         break
-    counter += 1
-print("Цикл завершён")
+    print("Получена команда:", command)
+print("Программа завершена")
