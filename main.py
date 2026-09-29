@@ -1,51 +1,66 @@
-def show_settings(**kwargs):
-    print(type(kwargs))
-    print(kwargs)
+def greet():
+    print("Здравствуйте")
 
-show_settings(
-    host="localhost",
-    port=5432,
-    debug=True
-)
+print(type(greet))
 
-def show_settings(**kwargs):
-    for key, value in kwargs.items():
-        print(key, "=", value)
-        
-show_settings(
-    host="localhost",
-    port=5432,
-    debug=True
-)
+greet()
 
-def show_settings(**data):
-    print(data)
-    
-def show_data(*args, **kwargs):
-    print("Позиционные:", args)
-    print("Именованные:", kwargs)
-    
-show_data(
-    10,
-    20,
-    30,
-    name="Анна",
-    active=True
-)
+print(greet)
+print(greet())
 
-def create_user(*args):
-    print(args)
-    
-def create_user(name, age, city):
-    print(name, age, city)
-    
-def show_user(name, age):
-    print(name)
-    print(age)
-    
-user = {
-    "name": "Анна",
-    "age": 25
-}
+def greet(name):
+    print("Здравствуйте,", name)
 
-show_user(**user)
+say_hello = greet
+
+say_hello("Анна")
+
+def get_number():
+    return 100
+
+value = get_number
+result = get_number()
+print(value())
+
+def greet(name):
+    return "Здравствуйте, " + name
+
+def execute(function, value):
+    return function(value)
+
+result = execute(greet, "Анна")
+
+print(result)
+operation = greet
+
+def start():
+    print("Запуск")
+
+def stop():
+    print("Остановка")
+
+actions = [start, stop]
+
+print(actions[0])
+actions[0]()
+actions[1]()
+
+def add(a, b):
+    return a + b
+
+def multiply(a, b):
+    return a * b
+
+operation = add
+
+print(operation(10, 5))
+operation = multiply
+print(operation(10, 5))
+
+def create_operation():
+    def operation():
+        print("Операция выполнена")
+
+    return operation
+result = create_operation()
+result()
