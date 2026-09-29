@@ -1,7 +1,6 @@
-temperature = 30
+attempts = 0
+is_connected = False
 
-while temperature > 20:
-    print("Текущая температура:", temperature)
-    temperature -= 2
-
-print("Температура стала 20 или ниже")
+while attempts < 3 and not is_connected:
+    print("Попытка подключения")
+    attempts += 1
