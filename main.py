@@ -1,8 +1,8 @@
-user = {
-    "name": "Анна",
-    "age": 25
-}
-
-for key, value in user.items():
-    print("Ключ:", key)
-    print("Значение:", value)
+numbers = [10, 20, 30, 40]
+target = 30
+for number in numbers:
+    if number == target:
+        print("Значение найдено")
+        break
+if target in numbers:
+    print("Значение найдено")
