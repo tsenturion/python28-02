@@ -1,7 +1,5 @@
-colors = ("red", "green", "blue")
-print("green" in colors)
-print("black" in colors)
-print("black" not in colors)
-selected_color = "green"
-if selected_color in colors:
-    print("Цвет поддерживается")
+numbers = (10, 20, 10, 30, 10)
+print(numbers.count(10))
+
+numbers = (10, 20, 10, 30)
+print(numbers.index(20))
