@@ -1,6 +1,1 @@
-user = ("Анна", 25)
-
-name, age = user
-
-print(name)
-print(age)
+point = (10, 20)
