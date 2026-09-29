@@ -1,14 +1,7 @@
-outer = 1
-
-while outer <= 3:
-    inner = 1
-
-    while inner <= 3:
-        print("outer =", outer, "inner =", inner)
-
-        if inner == 2:
-            break
-
-        inner += 1
-
-    outer += 1
+number = 0
+while number < 5:
+    number += 1
+    if number == 2:
+        continue
+    print("Обрабатываем:", number)
+print("Цикл завершён")

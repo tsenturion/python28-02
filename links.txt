@@ -64,3 +64,4 @@ https://docs.python.org/ru/3.13/reference/compound_stmts.html
 https://docs.python.org/ru/3.13/tutorial/controlflow.html
 https://docs.python.org/ru/3.13/reference/compound_stmts.html#the-while-statement
 https://docs.python.org/ru/3.13/reference/simple_stmts.html#the-break-statement
+https://docs.python.org/ru/3.13/reference/simple_stmts.html#the-continue-statement
