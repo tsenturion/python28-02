@@ -1,7 +1,5 @@
-number = 1
+counter = 1
 
-while number <= 3:
-    print(number)
-    number = number + 1
-
-print("Цикл завершён")
+while counter <= 5:
+    print(counter)
+    counter = counter + 1
