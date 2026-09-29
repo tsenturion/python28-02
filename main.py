@@ -1,6 +1,3 @@
-first = {1, 2, 3}
-second = {3, 4, 5}
+allowed_users = {"anna", "ivan", "maria"}
 
-result = first ^ second
-
-print(result)
+print("anna" in allowed_users)
