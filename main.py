@@ -2,4 +2,4 @@ counter = 1
 
 while counter <= 5:
     print(counter)
-    counter = counter + 1
+    counter += 1
