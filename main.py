@@ -1,3 +1,8 @@
-def show_user(name, age):
-    print("Имя:", name)
-    print("Возраст:", age)
+def calculate():
+    result = 10 + 20
+    print(result)
+
+def greet(name):
+    print(name)
+    
+calculate()
