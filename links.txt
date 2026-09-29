@@ -57,3 +57,4 @@ https://docs.python.org/ru/3.13/reference/lexical_analysis.html#indentation
 https://peps.python.org/pep-0008/#indentation
 https://docs.python.org/ru/3.13/tutorial/controlflow.html#if-statements
 https://docs.python.org/ru/3.13/reference/compound_stmts.html#the-if-statement
+https://docs.python.org/ru/3.13/reference/expressions.html#comparisons

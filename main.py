@@ -1,8 +1,8 @@
-temperature = 30
+age = 20
 
-if temperature >= 30:
-    print("Жарко")
-elif temperature >= 20:
-    print("Тепло")
-else:
-    print("Прохладно")
+print(age == 20)
+print(age != 20)
+print(age > 18)
+print(age < 18)
+print(age >= 20)
+print(age <= 20)
