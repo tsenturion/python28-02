@@ -1,6 +1,7 @@
-temperature = 20
-
-if temperature >= 20:
-    print("Тепло")
-else:
-    print("Прохладно")
+print(1 == '1')
+print(type(1) == type('1'))
+print(type(1))
+print(type('1'))
+print(type(str) == type(int))
+print(type(str))
+print(type(int))
