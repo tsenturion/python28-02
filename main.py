@@ -1,6 +1,7 @@
-password_correct = False
-
-if password_correct:
-    print("Вход выполнен")
+score = 82
+if score >= 90:
+    print("Отличный результат")
+elif score >= 75:
+    print("Хороший результат")
 else:
-    print("Неверный пароль")
+    print("Результат требует улучшения")
