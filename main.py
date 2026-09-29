@@ -1,5 +1,6 @@
-data = {}
-print(type(data))
+first = {1, 2, 3}
+second = {3, 4, 5}
 
-data = set()
-print(type(data))
+result = first | second
+
+print(result)
