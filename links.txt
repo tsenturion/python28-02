@@ -68,3 +68,4 @@ https://docs.python.org/ru/3.13/reference/simple_stmts.html#the-continue-stateme
 https://docs.python.org/ru/3.13/builtins/stdtypes.html#tuple
 https://docs.python.org/ru/3.13/builtins/stdtypes.html#immutable-sequence-types
 https://docs.python.org/ru/3.13/tutorial/datastructures.html#more-on-lists
+https://docs.python.org/ru/3.13/builtins/stdtypes.html#set-types-set-frozenset
