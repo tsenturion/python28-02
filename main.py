@@ -1,8 +1,7 @@
 user = {
     "name": "Анна",
-    "age": 25,
-    "city": "Москва"
+    "age": 25
 }
 
-print(user)
-print(type(user))
+print(user["name"])
+print(user["age"])
