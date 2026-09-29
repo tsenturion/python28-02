@@ -1,6 +1,4 @@
-attempts = 0
-is_connected = False
+counter = 1
 
-while attempts < 3 and not is_connected:
-    print("Попытка подключения")
-    attempts += 1
+while counter <= 5:
+    print(counter)
