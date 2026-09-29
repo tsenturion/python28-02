@@ -1,2 +1,2 @@
-def greet(name):
-    print("Здравствуйте,", name)
+def show_message():
+    print("Программа работает")
