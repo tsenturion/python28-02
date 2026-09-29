@@ -1,48 +1,51 @@
-def show_values(*args):
-    print(type(args))
-    print(args)
-    
-show_values(10, 20, 30)
+def show_settings(**kwargs):
+    print(type(kwargs))
+    print(kwargs)
 
-def show_values(*args):
-    for value in args:
-        print(value)
-
-show_values(10, 20, 30)
-show_values(10)
-show_values(10, 20, 30, 40, 50)
-show_values()
-
-def calculate_sum(*numbers):
-    total = 0
-
-    for number in numbers:
-        total += number
-
-    return total
-
-result = calculate_sum(10, 20, 30)
-
-print(result)
-
-def show_message(title, *messages):
-    print("Заголовок:", title)
-
-    for message in messages:
-        print(message)
-        
-show_message(
-    "Отчёт",
-    "Сервис запущен",
-    "Соединение установлено",
-    "Проверка завершена"
+show_settings(
+    host="localhost",
+    port=5432,
+    debug=True
 )
 
-def calculate(a, b, c):
-    return a + b + c
+def show_settings(**kwargs):
+    for key, value in kwargs.items():
+        print(key, "=", value)
+        
+show_settings(
+    host="localhost",
+    port=5432,
+    debug=True
+)
 
-numbers = [10, 20, 30]
-#calculate(numbers)
-result = calculate(*numbers)
-calculate(10, 20, 30)
-print(result)
+def show_settings(**data):
+    print(data)
+    
+def show_data(*args, **kwargs):
+    print("Позиционные:", args)
+    print("Именованные:", kwargs)
+    
+show_data(
+    10,
+    20,
+    30,
+    name="Анна",
+    active=True
+)
+
+def create_user(*args):
+    print(args)
+    
+def create_user(name, age, city):
+    print(name, age, city)
+    
+def show_user(name, age):
+    print(name)
+    print(age)
+    
+user = {
+    "name": "Анна",
+    "age": 25
+}
+
+show_user(**user)
