@@ -1,7 +1,7 @@
-is_running = True
+temperature = 30
 
-while is_running:
-    print("Программа работает")
-    is_running = False
+while temperature > 20:
+    print("Текущая температура:", temperature)
+    temperature -= 2
 
-print("Работа завершена")
+print("Температура стала 20 или ниже")
