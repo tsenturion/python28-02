@@ -1,2 +1,4 @@
 def show_message():
-    print("Программа работает")
+    print("Функция выполняется")
+
+show_message()
