@@ -1,3 +1,7 @@
-allowed_users = {"anna", "ivan", "maria"}
+numbers = [10, 20]
 
-print("anna" in allowed_users)
+iterator = iter(numbers)
+
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
