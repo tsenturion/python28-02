@@ -1,8 +1,9 @@
-free_space_gb = 12
+file_exists = True
+file_is_empty = False
 
-if free_space_gb >= 20:
-    print("Свободного места достаточно")
-elif free_space_gb >= 10:
-    print("Свободного места осталось немного")
+if not file_exists:
+    print("Файл не найден")
+elif file_is_empty:
+    print("Файл существует, но не содержит данных")
 else:
-    print("Недостаточно свободного места")
+    print("Файл найден и содержит данные")
