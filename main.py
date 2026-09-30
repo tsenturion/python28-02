@@ -1,3 +1,8 @@
-numbers = [1, 2, 3]
+def square(number):
+    return number ** 2
 
-result = map(lambda number: number * 10, numbers)
+numbers = [1, 2, 3, 4]
+
+result = map(square, numbers)
+
+print(list(result))
