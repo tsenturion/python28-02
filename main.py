@@ -1,7 +1,7 @@
 from functools import reduce
-numbers = [10, 20, 30]
-result = reduce(
-    lambda accumulated, current: accumulated + current,
-    numbers
-)
+
+numbers = [2, 3, 4]
+
+result = reduce(lambda a, b: a * b, numbers)
+
 print(result)
