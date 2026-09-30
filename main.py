@@ -1,6 +1,6 @@
-def square(number):
-    return number ** 2
-print(square(5))
-square = lambda number: number ** 2
-print(square(5))
-print(type(square))
+def execute(function, value):
+    return function(value)
+
+result = execute(lambda number: number * 2, 10)
+
+print(result)
