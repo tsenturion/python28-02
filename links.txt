@@ -81,3 +81,4 @@ https://docs.python.org/ru/3.13/reference/simple_stmts.html#the-return-statement
 https://docs.python.org/ru/3.13/tutorial/controlflow.html#keyword-arguments
 https://docs.python.org/ru/3.13/tutorial/controlflow.html#default-argument-values
 https://docs.python.org/ru/3.13/tutorial/controlflow.html#arbitrary-argument-lists
+https://docs.python.org/ru/3.13/reference/simple_stmts.html#the-pass-statement
