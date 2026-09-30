@@ -94,3 +94,6 @@ https://docs.python.org/ru/3.13/reference/import.html
 https://docs.python.org/ru/3.13/library/sys.html#sys.path
 https://docs.python.org/ru/3.13/library/__main__.html
 https://docs.python.org/ru/3.13/tutorial/modules.html#packages
+https://docs.python.org/ru/3.13/reference/import.html#regular-packages
+https://docs.python.org/ru/3.13/using/cmdline.html#cmdoption-m
+https://docs.python.org/ru/3.13/library/index.html

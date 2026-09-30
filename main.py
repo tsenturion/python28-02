@@ -5,6 +5,10 @@ from mytools.calculator import add
 
 from mytools.text_utils import normalize
 
+from mytools import add
+
+print(add(10, 20))
+
 print(add(10, 20))
 print(normalize("  PYTHON  "))
 
