@@ -1,8 +1,5 @@
-def square(number):
-    return number ** 2
+values = ["10", "20", "30"]
 
-numbers = [1, 2, 3, 4]
+numbers = list(map(int, values))
 
-result = map(square, numbers)
-
-print(list(result))
+print(numbers)
