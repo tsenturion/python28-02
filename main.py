@@ -1,22 +1,12 @@
-from mytools import calculator
-import mytools.calculator
+import argparse
 
-from mytools.calculator import add
+parser = argparse.ArgumentParser()
 
-from mytools.text_utils import normalize
+parser.add_argument(
+    "--name",
+    required=True
+)
 
-from mytools import add
+args = parser.parse_args()
 
-print(add(10, 20))
-
-print(add(10, 20))
-print(normalize("  PYTHON  "))
-
-print(add(10, 20))
-
-print(calculator.add(10, 20))
-print(calculator.multiply(5, 4))
-
-result = mytools.calculator.add(10, 20)
-
-print(result)
+print("Здравствуйте,", args.name)

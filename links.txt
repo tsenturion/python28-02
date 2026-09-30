@@ -97,3 +97,8 @@ https://docs.python.org/ru/3.13/tutorial/modules.html#packages
 https://docs.python.org/ru/3.13/reference/import.html#regular-packages
 https://docs.python.org/ru/3.13/using/cmdline.html#cmdoption-m
 https://docs.python.org/ru/3.13/library/index.html
+https://docs.python.org/ru/3.13/library/shutil.html
+https://pip.pypa.io/en/stable/
+https://docs.python.org/ru/3.13/library/ensurepip.html
+https://pypi.org/
+https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
