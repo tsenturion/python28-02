@@ -1,5 +1,4 @@
-import calculator
+import module_example
 
-result = calculator.add(10, 20)
-
-print(result)
+print("Основная программа")
+module_example.show_message()
