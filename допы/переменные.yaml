@@ -1,0 +1,5 @@
+postgresql_version: "18.6"
+postgresql_prefix: /opt/postgresql
+postgresql_source_dir: "/usr/local/src/postgresql-{{ postgresql_version }}"
+postgresql_data_dir: /data/postgresql/18/main
+postgresql_service: postgresql-18

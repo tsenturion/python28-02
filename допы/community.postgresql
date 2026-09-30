@@ -1,0 +1,15 @@
+- name: Подключить учебные расширения в базе postgres
+  become: true
+  become_user: postgres
+  community.postgresql.postgresql_ext:
+    login_db: postgres
+    login_user: postgres
+    login_unix_socket: /tmp
+    name: "{{ item }}"
+    state: present
+  loop:
+    - pageinspect
+    - pg_buffercache
+    - pg_stat_statements
+    - dblink
+    - plpython3u

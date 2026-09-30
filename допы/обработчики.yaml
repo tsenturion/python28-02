@@ -1,0 +1,15 @@
+tasks:
+  - name: Обновить конфигурацию PostgreSQL
+    ansible.builtin.template:
+      src: postgresql.conf.j2
+      dest: "{{ postgresql_data_dir }}/postgresql.conf"
+      owner: postgres
+      group: postgres
+      mode: "0600"
+    notify: Перезапустить PostgreSQL
+
+handlers:
+  - name: Перезапустить PostgreSQL
+    ansible.builtin.systemd_service:
+      name: "{{ postgresql_service }}"
+      state: restarted

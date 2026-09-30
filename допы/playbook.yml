@@ -1,0 +1,13 @@
+- name: Подготовить библиотеки для генерации Excel и PDF
+  hosts: databases
+  become: true
+
+  tasks:
+    - name: Установить openpyxl и reportlab для системного Python
+      ansible.builtin.apt:
+        name:
+          - python3-openpyxl
+          - python3-reportlab
+        state: present
+        update_cache: true
+        cache_valid_time: 3600
