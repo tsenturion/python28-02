@@ -89,3 +89,5 @@ https://docs.python.org/ru/3.13/builtins/functions.html#zip
 https://docs.python.org/ru/3.13/library/functools.html#functools.reduce
 https://docs.python.org/ru/3.13/library/collections.html
 https://docs.python.org/ru/3.13/reference/expressions.html#generator-expressions
+https://docs.python.org/ru/3.13/tutorial/modules.html
+https://docs.python.org/ru/3.13/reference/import.html
