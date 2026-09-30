@@ -1,18 +1,25 @@
-numbers = [1, 2, 3]
+def generate_numbers():
+    counter = 0
+    
+    while counter < 5:
+        yield counter
+        counter += 1
+        
+        
+generator = generate_numbers()
+print(next(generator))
+print(generator.gi_frame.f_locals)
+print(generator.gi_frame.f_lasti)
 
-result = map(lambda number: number * 2, numbers)
-result = list(
-    map(lambda number: number * 2, numbers)
-)
-print(list(result))
-print(list(result))
 
-result = map(
-    lambda value: value.strip().lower().replace(" ", "_"),
-    values
-)
+print(next(generator))
+print(generator.gi_frame.f_locals)
+print(generator.gi_frame.f_lasti)
 
-def normalize_name(value):
-    value = value.strip()
-    value = value.lower()
-    return value.replace(" ", "_")
+def generate_names():
+    yield "Анна"
+    yield "Иван"
+    yield "Мария"
+    
+for index, name in enumerate(generate_names()):
+    print(index, name)
