@@ -1,6 +1,5 @@
-#import calculator
-from calculator import add
+import sys
 
-result = add(10, 20)
+print(sys.path)
 
-print(result)
+print(__name__)

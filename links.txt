@@ -91,3 +91,6 @@ https://docs.python.org/ru/3.13/library/collections.html
 https://docs.python.org/ru/3.13/reference/expressions.html#generator-expressions
 https://docs.python.org/ru/3.13/tutorial/modules.html
 https://docs.python.org/ru/3.13/reference/import.html
+https://docs.python.org/ru/3.13/library/sys.html#sys.path
+https://docs.python.org/ru/3.13/library/__main__.html
+https://docs.python.org/ru/3.13/tutorial/modules.html#packages
