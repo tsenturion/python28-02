@@ -84,3 +84,4 @@ https://docs.python.org/ru/3.13/tutorial/controlflow.html#arbitrary-argument-lis
 https://docs.python.org/ru/3.13/reference/simple_stmts.html#the-pass-statement
 https://docs.python.org/ru/3.13/reference/expressions.html#lambda
 https://docs.python.org/ru/3.13/builtins/functions.html#map
+https://docs.python.org/ru/3.13/builtins/functions.html#filter

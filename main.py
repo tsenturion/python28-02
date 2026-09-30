@@ -1,5 +1,5 @@
-values = ["10", "20", "30"]
+numbers = [1, 2, 3, 4, 5, 6]
 
-numbers = list(map(int, values))
+result = filter(lambda number: number % 2 == 0, numbers)
 
-print(numbers)
+print(list(result))
