@@ -1,6 +1,3 @@
-def execute(function, value):
-    return function(value)
+numbers = [1, 2, 3]
 
-result = execute(lambda number: number * 2, 10)
-
-print(result)
+result = map(lambda number: number * 10, numbers)
